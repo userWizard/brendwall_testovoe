@@ -1,0 +1,730 @@
+[
+    {
+        "label": "Router",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
+        "label": "Schema",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
+        "label": "Schema",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
+        "label": "NinjaAPI",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "core.apps.products.domain.entities",
+        "description": "core.apps.products.domain.entities",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "core.api.v1.products.handlers",
+        "description": "core.api.v1.products.handlers",
+        "isExtraImport": true,
+        "detail": "core.api.v1.products.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationOut",
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "isExtraImport": true,
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PingResponseSchema",
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "isExtraImport": true,
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "core.api.v1.urls",
+        "description": "core.api.v1.urls",
+        "isExtraImport": true,
+        "detail": "core.api.v1.urls",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "dataclasses",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "MinValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_VALUE",
+        "importPath": "core.apps.products.utils.temps",
+        "description": "core.apps.products.utils.temps",
+        "isExtraImport": true,
+        "detail": "core.apps.products.utils.temps",
+        "documentation": {}
+    },
+    {
+        "label": "TimedBaseModel",
+        "importPath": "core.apps.common.models",
+        "description": "core.apps.common.models",
+        "isExtraImport": true,
+        "detail": "core.apps.common.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "core.apps.products.domain.entities.products",
+        "description": "core.apps.products.domain.entities.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.entities.products",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "core.apps.products.models.products",
+        "description": "core.apps.products.models.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.models.products",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "core.api.v1.products.handlers",
+        "description": "core.api.v1.products.handlers",
+        "peekOfCode": "router = Router(tags=['Products'])",
+        "detail": "core.api.v1.products.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSchema",
+        "kind": 6,
+        "importPath": "core.api.v1.products.schemas",
+        "description": "core.api.v1.products.schemas",
+        "peekOfCode": "class ProductSchema(BaseModel):\n    id: int\n    title: str\n    description: str\n    created_at: datetime\n    updated_at: datetime | None = None\n    @staticmethod\n    def from_entity(entity: ProductEntity) -> 'ProductSchema':\n        return ProductSchema(\n            id=entity.id,",
+        "detail": "core.api.v1.products.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "core.api.v1.urls",
+        "description": "core.api.v1.urls",
+        "peekOfCode": "router = Router(tags=['v1'])\nrouter.add_router('products/', product_router)",
+        "detail": "core.api.v1.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationOut",
+        "kind": 6,
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "peekOfCode": "class PaginationOut(Schema):\n    offset: int\n    limit: int\n    total: int\nclass PaginationIn(Schema):\n    offset: int = 0\n    limit: int = 20",
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationIn",
+        "kind": 6,
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "peekOfCode": "class PaginationIn(Schema):\n    offset: int = 0\n    limit: int = 20",
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "PingResponseSchema",
+        "kind": 6,
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "peekOfCode": "class PingResponseSchema(Schema):\n    result: bool\nclass ListPaginatedResponse(Schema, Generic[TListItem]):\n    items: list[TListItem]\n    pagination: PaginationOut\nclass ApiResponse(Schema, Generic[TData]):\n    data: TData | dict = Field(default_factory=dict)\n    meta: dict[str, Any] = Field(default_factory=dict)\n    errors: list[Any] = Field(default_factory=list)",
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ListPaginatedResponse",
+        "kind": 6,
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "peekOfCode": "class ListPaginatedResponse(Schema, Generic[TListItem]):\n    items: list[TListItem]\n    pagination: PaginationOut\nclass ApiResponse(Schema, Generic[TData]):\n    data: TData | dict = Field(default_factory=dict)\n    meta: dict[str, Any] = Field(default_factory=dict)\n    errors: list[Any] = Field(default_factory=list)",
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ApiResponse",
+        "kind": 6,
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "peekOfCode": "class ApiResponse(Schema, Generic[TData]):\n    data: TData | dict = Field(default_factory=dict)\n    meta: dict[str, Any] = Field(default_factory=dict)\n    errors: list[Any] = Field(default_factory=list)",
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TData",
+        "kind": 5,
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "peekOfCode": "TData = TypeVar(\"TData\")\nTListItem = TypeVar(\"TListItem\")\nclass PingResponseSchema(Schema):\n    result: bool\nclass ListPaginatedResponse(Schema, Generic[TListItem]):\n    items: list[TListItem]\n    pagination: PaginationOut\nclass ApiResponse(Schema, Generic[TData]):\n    data: TData | dict = Field(default_factory=dict)\n    meta: dict[str, Any] = Field(default_factory=dict)",
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TListItem",
+        "kind": 5,
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "peekOfCode": "TListItem = TypeVar(\"TListItem\")\nclass PingResponseSchema(Schema):\n    result: bool\nclass ListPaginatedResponse(Schema, Generic[TListItem]):\n    items: list[TListItem]\n    pagination: PaginationOut\nclass ApiResponse(Schema, Generic[TData]):\n    data: TData | dict = Field(default_factory=dict)\n    meta: dict[str, Any] = Field(default_factory=dict)\n    errors: list[Any] = Field(default_factory=list)",
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ping",
+        "kind": 2,
+        "importPath": "core.api.urls",
+        "description": "core.api.urls",
+        "peekOfCode": "def ping(request: HttpRequest) -> PingResponseSchema:\n    return PingResponseSchema(result=True)\napi.add_router('v1/', v1_router)\nurlpatterns = [\n    path(\"\", api.urls),\n]",
+        "detail": "core.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "core.api.urls",
+        "description": "core.api.urls",
+        "peekOfCode": "api = NinjaAPI()\n@api.get(\"/ping\", response=PingResponseSchema)\ndef ping(request: HttpRequest) -> PingResponseSchema:\n    return PingResponseSchema(result=True)\napi.add_router('v1/', v1_router)\nurlpatterns = [\n    path(\"\", api.urls),\n]",
+        "detail": "core.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.api.urls",
+        "description": "core.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", api.urls),\n]",
+        "detail": "core.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CommonConfig",
+        "kind": 6,
+        "importPath": "core.apps.common.apps",
+        "description": "core.apps.common.apps",
+        "peekOfCode": "class CommonConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'common'",
+        "detail": "core.apps.common.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TimedBaseModel",
+        "kind": 6,
+        "importPath": "core.apps.common.models",
+        "description": "core.apps.common.models",
+        "peekOfCode": "class TimedBaseModel(models.Model):\n    created_at = models.DateTimeField(\n        verbose_name='Дата создания',\n        auto_now_add=True,\n    )\n    updated_at = models.DateTimeField(\n        verbose_name='Дата обновления',\n        auto_now=True,\n    )\n    class Meta:",
+        "detail": "core.apps.common.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "core.apps.products.domain.entities.products",
+        "description": "core.apps.products.domain.entities.products",
+        "peekOfCode": "class Product:\n    id: int # noqa\n    title: str | None = None\n    description: str | None = None\n    price: int",
+        "detail": "core.apps.products.domain.entities.products",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProductService",
+        "kind": 6,
+        "importPath": "core.apps.products.domain.services.products",
+        "description": "core.apps.products.domain.services.products",
+        "peekOfCode": "class BaseProductService(ABC):\n    def get_product_list(self):\n        ...\nclass ORMProductService(BaseProductService):\n    @abstractmethod\n    def get_product_list(self):\n        ...",
+        "detail": "core.apps.products.domain.services.products",
+        "documentation": {}
+    },
+    {
+        "label": "ORMProductService",
+        "kind": 6,
+        "importPath": "core.apps.products.domain.services.products",
+        "description": "core.apps.products.domain.services.products",
+        "peekOfCode": "class ORMProductService(BaseProductService):\n    @abstractmethod\n    def get_product_list(self):\n        ...",
+        "detail": "core.apps.products.domain.services.products",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "kind": 6,
+        "importPath": "core.apps.products.models.products",
+        "description": "core.apps.products.models.products",
+        "peekOfCode": "class ProductModel(TimedBaseModel):\n    \"\"\"Product model\"\"\"\n    title = models.CharField(\n        verbose_name='Название',\n        max_length=50,\n        blank=False,\n    )\n    description = models.TextField(\n        verbose_name='Описание',\n        max_length=200,",
+        "detail": "core.apps.products.models.products",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_VALUE",
+        "kind": 5,
+        "importPath": "core.apps.products.utils.temps",
+        "description": "core.apps.products.utils.temps",
+        "peekOfCode": "MIN_VALUE = 1",
+        "detail": "core.apps.products.utils.temps",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModelAdmin",
+        "kind": 6,
+        "importPath": "core.apps.products.admin",
+        "description": "core.apps.products.admin",
+        "peekOfCode": "class ProductModelAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'price', 'description', 'created_at', 'updated_at')",
+        "detail": "core.apps.products.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsConfig",
+        "kind": 6,
+        "importPath": "core.apps.products.apps",
+        "description": "core.apps.products.apps",
+        "peekOfCode": "class ProductsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core.apps.products'\n    verbose_name = 'Товары'",
+        "detail": "core.apps.products.apps",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "core.project.settings.local",
+        "description": "core.project.settings.local",
+        "peekOfCode": "DEBUG = True",
+        "detail": "core.project.settings.local",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nenv = environ.Env()\nenviron.Env.read_env(BASE_DIR / '.env')\nSECRET_KEY = env('DJANGO_SECRET_KEY', default='mysecretkey')\nDEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env(BASE_DIR / '.env')\nSECRET_KEY = env('DJANGO_SECRET_KEY', default='mysecretkey')\nDEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "SECRET_KEY = env('DJANGO_SECRET_KEY', default='mysecretkey')\nDEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # first party",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "ALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # first party\n    'core.apps.products.apps.ProductsConfig'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # first party\n    'core.apps.products.apps.ProductsConfig'\n]",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'core.project.urls'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "ROOT_URLCONF = 'core.project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "WSGI_APPLICATION = 'core.project.wsgi.application'\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "LANGUAGE_CODE = 'ru'\nTIME_ZONE = 'Moscow'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "TIME_ZONE = 'Moscow'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = 'static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "STATIC_URL = 'static/'\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "core.project.settings.main",
+        "description": "core.project.settings.main",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.project.settings.main",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.project.asgi",
+        "description": "core.project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "core.project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.project.urls",
+        "description": "core.project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('core.api.urls')),\n]",
+        "detail": "core.project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.project.wsgi",
+        "description": "core.project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "core.project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
