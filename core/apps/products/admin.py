@@ -4,4 +4,4 @@ from core.apps.products.models.products import ProductModel
 
 @admin.register(ProductModel)
 class ProductModelAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'price', 'description', 'created_at', 'updated_at')
+    list_display = ('id', 'title', 'price', 'description', 'created_at', 'updated_at')

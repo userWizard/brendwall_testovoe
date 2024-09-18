@@ -1,8 +1,12 @@
-from dataclasses import dataclasses
+from dataclasses import dataclass
+from datetime import datetime
 
-@dataclasses
+
+@dataclass
 class Product:
     id: int # noqa
-    title: str | None = None
-    description: str | None = None
+    title: str
     price: int
+    created_at: datetime
+    updated_at: datetime
+    description: str | None = None

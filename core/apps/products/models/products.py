@@ -14,20 +14,21 @@ class ProductModel(TimedBaseModel):
         max_length=50,
         blank=False,
     )
+    price = models.IntegerField(
+        verbose_name='Цена',
+        validators=(MinValueValidator(MIN_VALUE),),
+        error_messages={
+            "errors":
+            f"Минимальное время готовки {MIN_VALUE} минута."
+        },
+        default=MIN_VALUE,
+    )
     description = models.TextField(
         verbose_name='Описание',
         max_length=200,
         blank=True
     )
-    price = models.IntegerField(
-        verbose_name='Цена',
-        validators=(MinValueValidator(MIN_VALUE)),
-        error_messages={
-            "errors":
-            f"Минимальное время готовки {MIN_VALUE} минута."
-        },
-    )
-    
+
     class Meta:
         ordering = ('title',)
         verbose_name = 'Продукт'
@@ -38,8 +39,8 @@ class ProductModel(TimedBaseModel):
         return ProductEntity(
             id=self.pk,
             title=self.title,
-            description=self.description,
             price=self.price,
+            description=self.description,
             created_at=self.created_at,
             updated_at=self.updated_at,
         )

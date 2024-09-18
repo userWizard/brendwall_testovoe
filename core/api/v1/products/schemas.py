@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 from datetime import datetime
 
-from core.apps.products.domain.entities import Product as ProductEntity
+from core.apps.products.domain.entities.products import Product as ProductEntity
 
 class ProductSchema(BaseModel):
     id: int

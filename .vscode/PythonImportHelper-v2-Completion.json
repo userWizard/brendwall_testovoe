@@ -1,5 +1,29 @@
 [
     {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "ninja",
+        "description": "ninja",
+        "isExtraImport": true,
+        "detail": "ninja",
+        "documentation": {}
+    },
+    {
         "label": "Router",
         "importPath": "ninja",
         "description": "ninja",
@@ -40,6 +64,86 @@
         "documentation": {}
     },
     {
+        "label": "ApiResponse",
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "isExtraImport": true,
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ListPaginatedResponse",
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "isExtraImport": true,
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PingResponseSchema",
+        "importPath": "core.api.schemas",
+        "description": "core.api.schemas",
+        "isExtraImport": true,
+        "detail": "core.api.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSchema",
+        "importPath": "core.api.v1.products.schemas",
+        "description": "core.api.v1.products.schemas",
+        "isExtraImport": true,
+        "detail": "core.api.v1.products.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationIn",
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "isExtraImport": true,
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationOut",
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "isExtraImport": true,
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationOut",
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "isExtraImport": true,
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationIn",
+        "importPath": "core.api.pagination",
+        "description": "core.api.pagination",
+        "isExtraImport": true,
+        "detail": "core.api.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProductService",
+        "importPath": "core.apps.products.domain.services.products",
+        "description": "core.apps.products.domain.services.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.services.products",
+        "documentation": {}
+    },
+    {
+        "label": "ORMProductService",
+        "importPath": "core.apps.products.domain.services.products",
+        "description": "core.apps.products.domain.services.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.services.products",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -64,11 +168,35 @@
         "documentation": {}
     },
     {
-        "label": "Product",
-        "importPath": "core.apps.products.domain.entities",
-        "description": "core.apps.products.domain.entities",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "core.apps.products.domain.entities",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "core.apps.products.domain.entities.products",
+        "description": "core.apps.products.domain.entities.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.entities.products",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "core.apps.products.domain.entities.products",
+        "description": "core.apps.products.domain.entities.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.entities.products",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "core.apps.products.domain.entities.products",
+        "description": "core.apps.products.domain.entities.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.domain.entities.products",
         "documentation": {}
     },
     {
@@ -104,19 +232,11 @@
         "documentation": {}
     },
     {
-        "label": "PaginationOut",
-        "importPath": "core.api.pagination",
-        "description": "core.api.pagination",
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "core.api.pagination",
-        "documentation": {}
-    },
-    {
-        "label": "HttpRequest",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -141,14 +261,6 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "PingResponseSchema",
-        "importPath": "core.api.schemas",
-        "description": "core.api.schemas",
-        "isExtraImport": true,
-        "detail": "core.api.schemas",
         "documentation": {}
     },
     {
@@ -184,6 +296,14 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -192,7 +312,15 @@
         "documentation": {}
     },
     {
-        "label": "dataclasses",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
         "importPath": "dataclasses",
         "description": "dataclasses",
         "isExtraImport": true,
@@ -213,6 +341,31 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "core.apps.products.models.products",
+        "description": "core.apps.products.models.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.models.products",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "core.apps.products.models.products",
+        "description": "core.apps.products.models.products",
+        "isExtraImport": true,
+        "detail": "core.apps.products.models.products",
+        "documentation": {}
+    },
+    {
+        "label": "django.core.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "detail": "django.core.validators",
         "documentation": {}
     },
     {
@@ -240,14 +393,6 @@
         "documentation": {}
     },
     {
-        "label": "Product",
-        "importPath": "core.apps.products.domain.entities.products",
-        "description": "core.apps.products.domain.entities.products",
-        "isExtraImport": true,
-        "detail": "core.apps.products.domain.entities.products",
-        "documentation": {}
-    },
-    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -261,14 +406,6 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "ProductModel",
-        "importPath": "core.apps.products.models.products",
-        "description": "core.apps.products.models.products",
-        "isExtraImport": true,
-        "detail": "core.apps.products.models.products",
         "documentation": {}
     },
     {
@@ -323,11 +460,29 @@
         "documentation": {}
     },
     {
+        "label": "get_products_list_handler",
+        "kind": 2,
+        "importPath": "core.api.v1.products.handlers",
+        "description": "core.api.v1.products.handlers",
+        "peekOfCode": "def get_products_list_handler(\n    request: HttpRequest,\n    pagination_in: Query[PaginationIn]\n) -> ApiResponse[ListPaginatedResponse[ProductSchema]]:\n    service: BaseProductService = ORMProductService()\n    products_list = service.get_product_list(pagination_in=pagination_in)\n    items = [ProductSchema.from_entity(obj) for obj in products_list]\n    pagination_out = PaginationOut(\n        items=items,\n        limit=pagination_in.limit ",
+        "detail": "core.api.v1.products.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "create_products",
+        "kind": 2,
+        "importPath": "core.api.v1.products.handlers",
+        "description": "core.api.v1.products.handlers",
+        "peekOfCode": "def create_products(\n    request: HttpRequest,\n    title: str,\n    description: str,\n    price: int\n) -> ApiResponse[ListPaginatedResponse[ProductSchema]]:\n    service : BaseProductService = ORMProductService()\n    create_products = service.create_product(\n        title=title, description=description, price=price\n    )",
+        "detail": "core.api.v1.products.handlers",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "kind": 5,
         "importPath": "core.api.v1.products.handlers",
         "description": "core.api.v1.products.handlers",
-        "peekOfCode": "router = Router(tags=['Products'])",
+        "peekOfCode": "router = Router(tags=['Products'])\nrouter.get('product_list/', response=ListPaginatedResponse[ProductSchema])\ndef get_products_list_handler(\n    request: HttpRequest,\n    pagination_in: Query[PaginationIn]\n) -> ApiResponse[ListPaginatedResponse[ProductSchema]]:\n    service: BaseProductService = ORMProductService()\n    products_list = service.get_product_list(pagination_in=pagination_in)\n    items = [ProductSchema.from_entity(obj) for obj in products_list]\n    pagination_out = PaginationOut(",
         "detail": "core.api.v1.products.handlers",
         "documentation": {}
     },
@@ -354,7 +509,7 @@
         "kind": 6,
         "importPath": "core.api.pagination",
         "description": "core.api.pagination",
-        "peekOfCode": "class PaginationOut(Schema):\n    offset: int\n    limit: int\n    total: int\nclass PaginationIn(Schema):\n    offset: int = 0\n    limit: int = 20",
+        "peekOfCode": "class PaginationOut(Schema):\n    offset: int\n    limit: int\nclass PaginationIn(Schema):\n    offset: int = 0\n    limit: int = 20",
         "detail": "core.api.pagination",
         "documentation": {}
     },
@@ -462,7 +617,7 @@
         "kind": 6,
         "importPath": "core.apps.products.domain.entities.products",
         "description": "core.apps.products.domain.entities.products",
-        "peekOfCode": "class Product:\n    id: int # noqa\n    title: str | None = None\n    description: str | None = None\n    price: int",
+        "peekOfCode": "class Product:\n    id: int # noqa\n    title: str\n    price: int\n    created_at: datetime\n    updated_at: datetime\n    description: str | None = None",
         "detail": "core.apps.products.domain.entities.products",
         "documentation": {}
     },
@@ -471,7 +626,7 @@
         "kind": 6,
         "importPath": "core.apps.products.domain.services.products",
         "description": "core.apps.products.domain.services.products",
-        "peekOfCode": "class BaseProductService(ABC):\n    def get_product_list(self):\n        ...\nclass ORMProductService(BaseProductService):\n    @abstractmethod\n    def get_product_list(self):\n        ...",
+        "peekOfCode": "class BaseProductService(ABC):\n    def get_product_list(\n        self,\n        pagination: PaginationIn\n    ) -> Iterable[Product]:\n        ...\n    def create_product(\n        self,\n        title: str,\n        description: str,",
         "detail": "core.apps.products.domain.services.products",
         "documentation": {}
     },
@@ -480,8 +635,17 @@
         "kind": 6,
         "importPath": "core.apps.products.domain.services.products",
         "description": "core.apps.products.domain.services.products",
-        "peekOfCode": "class ORMProductService(BaseProductService):\n    @abstractmethod\n    def get_product_list(self):\n        ...",
+        "peekOfCode": "class ORMProductService(BaseProductService):\n    @abstractmethod\n    def get_product_list(\n        self,\n        pagination: PaginationIn\n    ) -> Iterable[Product]:\n        query = ProductModel.objects.all()[\n            pagination.offset:pagination.offset + pagination.limit\n        ]\n        return [product.to_entity() for product in query]",
         "detail": "core.apps.products.domain.services.products",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.apps.products.migrations.0001_initial",
+        "description": "core.apps.products.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProductModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')),",
+        "detail": "core.apps.products.migrations.0001_initial",
         "documentation": {}
     },
     {
@@ -489,7 +653,7 @@
         "kind": 6,
         "importPath": "core.apps.products.models.products",
         "description": "core.apps.products.models.products",
-        "peekOfCode": "class ProductModel(TimedBaseModel):\n    \"\"\"Product model\"\"\"\n    title = models.CharField(\n        verbose_name='Название',\n        max_length=50,\n        blank=False,\n    )\n    description = models.TextField(\n        verbose_name='Описание',\n        max_length=200,",
+        "peekOfCode": "class ProductModel(TimedBaseModel):\n    \"\"\"Product model\"\"\"\n    title = models.CharField(\n        verbose_name='Название',\n        max_length=50,\n        blank=False,\n    )\n    price = models.IntegerField(\n        verbose_name='Цена',\n        validators=(MinValueValidator(MIN_VALUE),),",
         "detail": "core.apps.products.models.products",
         "documentation": {}
     },
@@ -507,7 +671,7 @@
         "kind": 6,
         "importPath": "core.apps.products.admin",
         "description": "core.apps.products.admin",
-        "peekOfCode": "class ProductModelAdmin(admin.ModelAdmin):\n    list_display = ('id', 'name', 'price', 'description', 'created_at', 'updated_at')",
+        "peekOfCode": "class ProductModelAdmin(admin.ModelAdmin):\n    list_display = ('id', 'title', 'price', 'description', 'created_at', 'updated_at')",
         "detail": "core.apps.products.admin",
         "documentation": {}
     },
@@ -705,7 +869,7 @@
         "kind": 5,
         "importPath": "core.project.urls",
         "description": "core.project.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('core.api.urls')),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n     path('api/', include('core.api.urls')),\n]",
         "detail": "core.project.urls",
         "documentation": {}
     },
@@ -723,7 +887,7 @@
         "kind": 2,
         "importPath": "manage",
         "description": "manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.project.settings.local')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
         "detail": "manage",
         "documentation": {}
     }
