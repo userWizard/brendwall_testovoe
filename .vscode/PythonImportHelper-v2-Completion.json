@@ -534,7 +534,7 @@
         "kind": 5,
         "importPath": "core.project.settings.main",
         "description": "core.project.settings.main",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nenv = environ.Env()\nenviron.Env.read_env(BASE_DIR / '.env')\nSECRET_KEY = env('DJANGO_SECRET_KEY', default='mysecretkey')\nDEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent\nenv = environ.Env()\nenviron.Env.read_env(BASE_DIR / '.env')\nSECRET_KEY = env('DJANGO_SECRET_KEY', default='mysecretkey')\nDEBUG = False\nALLOWED_HOSTS = []\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "core.project.settings.main",
         "documentation": {}
     },
