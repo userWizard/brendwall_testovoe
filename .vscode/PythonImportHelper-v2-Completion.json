@@ -469,11 +469,11 @@
         "documentation": {}
     },
     {
-        "label": "create_products",
+        "label": "create_products_handler",
         "kind": 2,
         "importPath": "core.api.v1.products.handlers",
         "description": "core.api.v1.products.handlers",
-        "peekOfCode": "def create_products(\n    request: HttpRequest,\n    title: str,\n    description: str,\n    price: int\n) -> ApiResponse[ListPaginatedResponse[ProductSchema]]:\n    service : BaseProductService = ORMProductService()\n    create_products = service.create_product(\n        title=title, description=description, price=price\n    )",
+        "peekOfCode": "def create_products_handler(\n    request: HttpRequest,\n    title: str,\n    description: str,\n    price: int\n) -> ApiResponse[ListPaginatedResponse[ProductSchema]]:\n    service : BaseProductService = ORMProductService()\n    create_products = service.create_product(\n        title=title, description=description, price=price\n    )",
         "detail": "core.api.v1.products.handlers",
         "documentation": {}
     },

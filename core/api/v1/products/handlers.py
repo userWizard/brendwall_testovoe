@@ -33,7 +33,7 @@ def get_products_list_handler(
 
 
 router.post('products_create/', response=ListPaginatedResponse[ProductSchema])
-def create_products(
+def create_products_handler(
     request: HttpRequest,
     title: str,
     description: str,
